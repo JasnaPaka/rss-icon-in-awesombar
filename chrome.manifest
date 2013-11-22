@@ -1,0 +1,8 @@
+content jprssicon chrome/content/
+
+skin jprssicon skin chrome/skin/
+override chrome://jprssicon/skin/rssicon-def.css chrome://jprssicon/skin/rssicon-lin.css os=Linux
+override chrome://jprssicon/skin/rssicon-def.css chrome://jprssicon/skin/rssicon-mac.css os=Darwin
+
+overlay chrome://browser/content/browser.xul         chrome://jprssicon/content/rssicon.xul
+
